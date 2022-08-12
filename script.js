@@ -9,3 +9,7 @@ document.getElementById("shape").onclick = function() {
     console.log(timeTaken);
     document.getElementById("timeTaken").innerHTML = timeTaken + "s";       // APPEND THE VALUE TO THE HTML OF THE SPAN timeTaken WITH A CONCATENATION OF THE TIME UNIT, SINCE THIS VALUE CANNOT BE RETURNED DIRECTLY.
 }
+
+function makeShapeAppear() {
+                                                                            // THIS IS JAVASCRIPT NOTATION, NOT LEVERAGING CSS PROPERTIES
+}
