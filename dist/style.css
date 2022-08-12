@@ -1,5 +1,29 @@
-#shape {
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: ExtraLight 200;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#wrapper {
+  width: 100vw;
+  height: 100vh;
+  padding: 0 40px;
+  background: radial-gradient(circle, rgb(63, 94, 251) 0%, rgba(172, 70, 252, 0.5315709047) 100%);
+}
+#wrapper #heading {
+  text-align: center;
+  font-weight: 600;
+  font-size: 38px;
+  padding-top: 30px;
+}
+#wrapper #shape {
   width: 200px;
   height: 200px;
-  background-color: red;
+  background-color: blueviolet;
 }/*# sourceMappingURL=style.css.map */
