@@ -9,7 +9,7 @@ function makeShapeAppear() {
     document.getElementById("shape").style.left = left + "px";                      // APPENDS THE px UNIT TO ENSURE IT APPLIES IT AS A STYLE TO THE POSITIONING
     document.getElementById("shape").style.height = heightAndWidth + "px";          // APPENDS THE px UNIT TO ENSURE IT APPLIES IT AS A STYLE TO THE HEIGHT OF THE ELEMENT
     document.getElementById("shape").style.width = heightAndWidth + "px";           // ENSURES THE SAME VALUE FOR heightAndWidth IS APPLIED TO THE RESPECTIVE PROPERTIES, MAINTAINING A 1:1 RATIO
-    document.getElementById("shape").style.backgroundColor = getRandomColor()       // RETRIEVES THE VALUE FROM THE FUNCTION getRandomColor AND SENDS IT TO THE SHAPE'S BACKGROUND COLOR PROPERTY
+    document.getElementById("shape").style.backgroundColor = getRandomColor()       // RETRIEVES THE VALUE FROM THE FUNCTION getRandomColor AND SENDS IT TO THE SHAPE'S BACKGROUND COLOR PROPERTY. THE UNIT DOESN'T NEED TO BE APPENDED HERE, AS IT IS ALREADY A STRING FROM THE FUNCTION
     start = new Date().getTime();                                                   // UPDATE (ie. REPLACE THE VALUE OF) THE start VARIABLE WITH THE TIME TAKEN FOR THE SHAPE TO APPEAR - THIS IS JAVASCRIPT NOTATION, NOT LEVERAGING CSS PROPERTIES
 }
 
