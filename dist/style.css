@@ -32,4 +32,5 @@ body {
   height: 200px;
   background-color: blueviolet;
   display: none;
+  position: relative; /* This position must be set in order for JavaScript to set the locations of the TOP and LEFT properties */
 }/*# sourceMappingURL=style.css.map */
