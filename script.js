@@ -24,11 +24,7 @@ document.getElementById("shape").onclick = function() {
     var timeTaken = (end - start) / 1000;                                   // RETURNS THE VALUE OF THE DIFFERENCE, IN s
     document.getElementById("timeTaken").innerHTML = timeTaken + "s";
     appearAfterDelay();
-    // makeShapeAppear();       // APPEND THE VALUE TO THE HTML OF THE SPAN timeTaken WITH A CONCATENATION OF THE TIME UNIT, SINCE THIS VALUE CANNOT BE RETURNED DIRECTLY.
 }
-
-
-// setTimeout(makeShapeAppear, 1000);      // THE COMMAND WHICH CALLS THE FUNCTION. THE SECOND PARAMETER, 1000ms HERE, INDICATES THE NUMBER OF ms PRIOR TO EXECUTION
 
 // INITIALISE THE start VARIABLE AND ASSIGN IT THE TIME TAKEN FOR THE PAGE TO LOAD IN THE BROWSER
 // DISPLAY THE SHAPE TO BE SELECTED 1000ms AFTER THE PAGE HAS BEEN FULLY RENDERED
