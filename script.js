@@ -9,7 +9,7 @@ function appearAfterDelay() {
     setTimeout(makeShapeAppear, Math.random() * 2000);
 }
 
-appearAfterDelay;
+appearAfterDelay();
 
 document.getElementById("shape").onclick = function() {
     document.getElementById("shape").style.display = "none";
