@@ -12,8 +12,12 @@ function appearAfterDelay() {
 appearAfterDelay();
 
 document.getElementById("shape").onclick = function() {
-    var top = Math.random() * 400;
-    document.getElementById("shape").style.top = top + "px";
+    var top = Math.random() * 400;                                          // DECLARES THE VARIABLE top AND ASSIGNS IT A RANDOM ARITHMETIC VALUE (BETWEEN 0 AND 1) WHICH IS THEN MULTIPLIED BY 400 TO GIVE AN APPROPRIATE VALUE TO 'SHIFT' THE ELEMENT
+    var left = Math.random() * 800;                                         // DECLARES THE VARIABLES left AND ASSIGNS IT A RANDOM ARITHMETIC VALUE (BETWEEN 0 and 1) WHICH IS THEN MULTIPLIED BY 800 TO GIVE AN APPROPRIATE VALUE TO 'SHIFT' THE ELEMENT - A LARGER ONE IS CHOSEN HERE OWING TO THE LANDSCAPE ORIENTATION OF THE SCREEN
+    console.log(top);
+    console.log(left);
+    document.getElementById("shape").style.top = top + "px";                // APPENDS THE px UNIT TO ENSURE IT APPLIES IT AS A STYLE TO THE POSITIONING
+    document.getElementById("shape").style.left = left + "px";              // APPENDS THE px UNIT TO ENSURE IT APPLIES IT AS A STYLE TO THE POSITIONING
     document.getElementById("shape").style.display = "none";
     var end = new Date().getTime()                                          //  DECLARE AND INITIALISE A VARIABLE WITH THE TIME TAKEN TO CLICK THE ELEMENT shape
     var timeTaken = (end - start) / 1000;                                   // RETURNS THE VALUE OF THE DIFFERENCE, IN s
