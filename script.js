@@ -1,5 +1,4 @@
 var start = new Date().getTime();   // DECLARE AND INITIALISE A VARIABLE WITH THE TIME TAKEN FOR THE PAGE TO LOAD, IN ms (SINCE CODE AT THE BEGINNING IS NATURALLY PARSED ON PAGE LOAD, UNLESS INSIDE AN EVENT LISTENER/FUNCTION)
-document.getElementById("shape").style.top = "50px";    // PLACING HERE ENSURES IT STARTS FROM 50px
 
 function makeShapeAppear() {
     document.getElementById("shape").style.display = "block";
@@ -13,6 +12,8 @@ function appearAfterDelay() {
 appearAfterDelay();
 
 document.getElementById("shape").onclick = function() {
+    var top = Math.random() * 400;
+    document.getElementById("shape").style.top = top + "px";
     document.getElementById("shape").style.display = "none";
     var end = new Date().getTime()                                          //  DECLARE AND INITIALISE A VARIABLE WITH THE TIME TAKEN TO CLICK THE ELEMENT shape
     var timeTaken = (end - start) / 1000;                                   // RETURNS THE VALUE OF THE DIFFERENCE, IN s
