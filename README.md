@@ -1,5 +1,7 @@
 <h1>Reaction Tester</h1>
 
+![](https://api.checklyhq.com/v1/badges/checks/fb792c2c-5456-4bc4-a86a-2ccecf962320?style=for-the-badge&theme=dark)
+
 A fun and interactive reaction tester project which counts how long it takes the user to click on the shape shown on their screen, then displays the time in seconds. Each shape is random in color and size, and the time at which they appear on the screen is also randomised.
 
 This project was completed as part of The Complete Web Developer Course 2.0 on Udemy by Rob Percival.
