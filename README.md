@@ -1,6 +1,10 @@
+<div align="center">
+  
 <h1>Reaction Tester</h1>
 
-![](https://api.checklyhq.com/v1/badges/checks/fb792c2c-5456-4bc4-a86a-2ccecf962320?style=for-the-badge&theme=dark) ![](https://api.checklyhq.com/v1/badges/checks/fb792c2c-5456-4bc4-a86a-2ccecf962320?style=for-the-badge&theme=dark&responseTime=true)
+![](https://api.checklyhq.com/v1/badges/checks/fb792c2c-5456-4bc4-a86a-2ccecf962320?style=for-the-badge&theme=dark) ![](https://api.checklyhq.com/v1/badges/checks/fb792c2c-5456-4bc4-a86a-2ccecf962320?style=for-the-badge&theme=dark&responseTime=true) <br><br> ![GitHub deployments](https://img.shields.io/github/deployments/asbhogal/JavaScript-Reaction-Tester-Project/production?label=DEPLOYMENT%20STATE&style=for-the-badge&labelColor=000) ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/asbhogal/JavaScript-Reaction-Tester-Project?style=for-the-badge&labelColor=000) ![GitHub repo size](https://img.shields.io/github/repo-size/asbhogal/JavaScript-Reaction-Tester-Project?color=blueviolet&style=for-the-badge&labelColor=000)
+
+</div>
 
 A fun and interactive reaction tester project which counts how long it takes the user to click on the shape shown on their screen, then displays the time in seconds. Each shape is random in color and size, and the time at which they appear on the screen is also randomised.
 
