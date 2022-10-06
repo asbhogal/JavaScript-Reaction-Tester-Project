@@ -25,7 +25,7 @@
     #shape {
         width: 200px;
         height: 200px;
-        background-color: blueviolet;
+        background-color: #8a2be2;
         display: none;
         position: relative;         /* This position must be set in order for JavaScript to set the locations of the TOP and LEFT properties */
         top: 50px;                  /* This was added to account for the heading and height - in the course, this is negated as the front-end layout is different. This way, the effect remains the same, effectively */
