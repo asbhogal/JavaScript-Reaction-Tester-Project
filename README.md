@@ -10,15 +10,18 @@ A fun and interactive reaction tester project which counts how long it takes the
 
 This project was completed as part of The Complete Web Developer Course 2.0 on Udemy by Rob Percival.
 
-<strong>Features:</strong><br>
+<strong>:heavy_check_mark: Features:</strong><br>
   - A series of either squares or circles
   - Random-shaped, sized and colored elements
   - Random time intervals between each element appearing
   - A timer which counts the user's reaction time and displays it front-end
 
-<strong>Stacks Used:</strong><br>
+<strong>:nerd_face: Stacks Used:</strong><br>
 <br>
 <a target="_blank" rel="noopener noreferrer" href="https://github.com/devicons/devicon/blob/master/icons/html5/html5-original.svg"><img src="https://github.com/devicons/devicon/raw/master/icons/html5/html5-original.svg" alt="html5" width="50" height="50" style="max-width:100%;"></a>
 <a target="_blank" rel="noopener noreferrer" href="https://github.com/devicons/devicon/blob/master/icons/css3/css3-original.svg"><img src="https://github.com/devicons/devicon/raw/master/icons/css3/css3-original.svg" alt="css3" width="50" height="50" style="max-width:100%;"></a>
 <a target="_blank" rel="noopener noreferrer" href="https://github.com/devicons/devicon/blob/master/icons/sass/sass-original.svg"><img src="https://github.com/devicons/devicon/blob/master/icons/sass/sass-original.svg" alt="sass" width="50" height="50" style="max-width:100%;"></a>
 <a target="_blank" rel="noopener noreferrer" href="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg"><img src="https://github.com/devicons/devicon/raw/master/icons/javascript/javascript-original.svg" alt="JavaScript" width="50" height="50" style="max-width:100%;"></a>
+
+<strong>:link: Links</strong><br>
+ - <a target="_blank" href="https://java-script-reaction-tester-project.vercel.app/">Reaction Tester Project</a>
